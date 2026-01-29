@@ -1,7 +1,9 @@
+import Dock from "./components/Dock";
+
 const App=()=>{
-  return <div className="h-screen w-screen flex text-white bg-zinc-900 p-5">
-    <h1 className="text-5xl">This is App</h1>
-  </div>
+  return <main className="relative bg-[url('mac-wallpaper.jpg')] h-screen w-screen flex flex-col object-center object-cover">
+    <Dock></Dock>
+  </main>
 }
 
 export default App;
