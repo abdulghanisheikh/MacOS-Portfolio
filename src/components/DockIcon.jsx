@@ -9,8 +9,6 @@ const DockIcon=({icon})=>{
         "bg-gradient-to-b from-[rgb(255,65,78)] to-[rgb(255,25,40)]":
         icon==="calender.svg"||icon==="mail.svg"?
         "bg-gradient-to-b from-[rgb(105,94,255)] to-[rgb(66,52,255)]":
-        icon==="spotify.svg"?
-        "bg-gradient-to-b from-[rgb(78,176,33)] to-[rgb(53,142,12)]":
         icon==="link.svg"?
         "bg-gradient-to-b from-[rgb(163,97,170)] to-[rgb(142,33,154)]":
         ""

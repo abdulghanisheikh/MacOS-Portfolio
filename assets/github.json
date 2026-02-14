@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "image": "/project-images/FileNest.png",
+        "title": "FileNest",
+        "description": "FileNest is a comprehensive file management system that allows users to securely store, organize, and share their files. It provides a user-friendly interface for uploading, viewing, and managing various types of files, including documents, images, and multimedia. FileNest is designed to be a one-stop solution for all your file storage needs, ensuring that your files are always safe and easily accessible.",
+        "techStack": ["React.js", "TailwindCSS", "Node.js", "Express.js", "LangChain", "MongoDB", "Supabase"],
+        "repoLink": "https://github.com/abdulghanisheikh/FileNest",
+        "liveDemo": "https://file-nest-seven.vercel.app"
+    },
+    {
+        "id": 2,
+        "image": "/project-images/Chat_with_PDF.png",
+        "title": "Chat with PDF",
+        "description": "Building a Retrieval-Augmented Generation (RAG) based Chat-with-PDF application enabling contextual question-answering over documents.",
+        "techStack": ["Next.js", "Node.js", "GroqAPI", "Qdrant", "Express.js", "LangChain"],
+        "repoLink": "https://github.com/abdulghanisheikh/Chat-with-PDF",
+        "liveDemo": null
+    },
+    {
+        "id": 3,
+        "image": "/project-images/CLI_Agent.png",
+        "title": "CLI Custom Agent",
+        "description": " A terminal-based AI agent built with LangGraph, featuring short-term memory and web search.",
+        "techStack": ["Node.js", "LangGraph.js", "GroqAPI", "OpenAI LLM"],
+        "repoLink": "https://github.com/abdulghanisheikh/Custom-Agent",
+        "liveDemo": null
+    }
+]
