@@ -2,7 +2,7 @@ import {Rnd} from "react-rnd";
 
 const MacWindow = ({ children }) => {
     return <Rnd>
-      <div className="flex flex-col bg-zinc-900 rounded-sm text-white w-100 h-80 overflow-hidden">
+      <div className="flex flex-col bg-black rounded-sm text-white w-200 h-120 overflow-hidden">
         <nav className="bg-zinc-800 text-gray-100 py-3 px-2 gap-8 flex items-center">
           <div className="dots flex items-center gap-1">
             <div className="w-2.5 h-2.5 rounded-full cursor-pointer bg-red-500"></div>
@@ -13,7 +13,7 @@ const MacWindow = ({ children }) => {
             <p>abdulghani</p>
           </div>
         </nav>
-        <div className="mainContext px-2 py-1 overflow-y-auto">
+        <div className="mainContext overflow-y-auto">
             {children}
         </div>
       </div>

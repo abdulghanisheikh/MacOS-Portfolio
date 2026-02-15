@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/project-images/FileNest.png",
+        "image": "/project-images/File_Nest.png",
         "title": "FileNest",
         "description": "FileNest is a comprehensive file management system that allows users to securely store, organize, and share their files. It provides a user-friendly interface for uploading, viewing, and managing various types of files, including documents, images, and multimedia. FileNest is designed to be a one-stop solution for all your file storage needs, ensuring that your files are always safe and easily accessible.",
         "techStack": ["React.js", "TailwindCSS", "Node.js", "Express.js", "LangChain", "MongoDB", "Supabase"],
