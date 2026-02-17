@@ -1,8 +1,15 @@
 import {Rnd} from "react-rnd";
 
 const MacWindow = ({ children }) => {
-    return <Rnd>
-      <div className="flex flex-col bg-black rounded-sm text-white w-200 h-120 overflow-hidden">
+    return <Rnd
+    default = {{
+      width: "50vw",
+      height: "60vh",
+      x: "300",
+      y: "200"
+    }}
+    >
+      <div className="flex flex-col bg-black rounded-sm text-white overflow-hidden h-full w-full">
         <nav className="bg-zinc-800 text-gray-100 py-3 px-2 gap-8 flex items-center">
           <div className="dots flex items-center gap-1">
             <div className="w-2.5 h-2.5 rounded-full cursor-pointer bg-red-500"></div>
